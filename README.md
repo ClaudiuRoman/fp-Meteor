@@ -1,2 +1,0 @@
-# meteorChatApp
-Meteor Chatt App

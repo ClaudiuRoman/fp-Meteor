@@ -1,0 +1,147 @@
+.shape{	
+	border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	transform:rotate(360deg);
+}
+.offer{
+	background:#fff; border:1px solid #ddd; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+}
+.offer-radius{
+	border-radius:7px;
+}
+.offer-danger {	border-color: #c0392b; }
+.offer-danger .shape{
+	border-color: transparent #c0392b transparent transparent;
+	border-color: rgba(255,255,255,0) #c0392b rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-success {	border-color: #27ae60; }
+.offer-success .shape{
+	border-color: transparent #27ae60 transparent transparent;
+	border-color: rgba(255,255,255,0) #27ae60rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-default {	border-color: #95a5a6; }
+.offer-default .shape{
+	border-color: transparent #95a5a6 transparent transparent;
+	border-color: rgba(255,255,255,0) #95a5a6 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-primary {	border-color: #2980b9; }
+.offer-primary .shape{
+	border-color: transparent #2980b9 transparent transparent;
+	border-color: rgba(255,255,255,0) #2980b9 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-info {	border-color: #16a085; }
+.offer-info .shape{
+	border-color: transparent #16a085 transparent transparent;
+	border-color: rgba(255,255,255,0) #16a085 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-warning {	border-color: #f39c12; }
+.offer-warning .shape{
+	border-color: transparent #f39c12 transparent transparent;
+	border-color: rgba(255,255,255,0) #f39c12 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+.shape-text{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}	
+.offer-content{
+	padding:0 20px 10px;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+.form-control{
+    background: transparent;
+}
+form {
+	width: 320px;
+	margin: 20px;
+}
+form > div {
+	position: relative;
+	overflow: hidden;
+}
+form input, form textarea {
+	width: 100%;
+	border: 2px solid gray;
+	background: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 8px 12px;
+	outline: 0;
+}
+form input:valid, form textarea:valid {
+	background: white;
+}
+form input:focus, form textarea:focus {
+	border-color: #357EBD;
+}
+form input:focus + label, form textarea:focus + label {
+	background: #357EBD;
+	color: white;
+	font-size: 70%;
+	padding: 1px 6px;
+	z-index: 2;
+	text-transform: uppercase;
+}
+form label {
+	-webkit-transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+	transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+	position: absolute;
+	color: #999;
+	padding: 7px 6px;
+	font-weight: normal;
+}
+form textarea {
+	display: block;
+	resize: vertical;
+}
+form.go-bottom input, form.go-bottom textarea {
+	padding: 12px 12px 12px 12px;
+}
+form.go-bottom label {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+form.go-bottom input:focus, form.go-bottom textarea:focus {
+	padding: 4px 6px 20px 6px;
+}
+form.go-bottom input:focus + label, form.go-bottom textarea:focus + label {
+	top: 100%;
+	margin-top: -16px;
+}
+form.go-right label {
+	border-radius: 0 5px 5px 0;
+	height: 100%;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	margin-right: -100%;
+}
+form.go-right input:focus + label, form.go-right textarea:focus + label {
+	right: 0;
+	margin-right: 0;
+	width: 40%;
+	padding-top: 5px;
+}
+.form-inline {
+	margin-left: 35px;
+}
+.privateOption, .publicOption{
+	color: white;
+}
+.message-data-name{
+	color: white;
+};
+.col-md-8{
+	margin: 0 auto ;
+    display: table ;
+}
